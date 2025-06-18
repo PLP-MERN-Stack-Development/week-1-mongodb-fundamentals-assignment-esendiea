@@ -45,3 +45,21 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+## 🛠️ How to Run This Project
+
+To populate the database with sample data, run:
+
+```bash
+node insert_books.js
+
+This will:
+Connect to MongoDB 
+
+Create the plp_bookstore database and books collection
+
+Drop the collection if it exists
+
+Insert sample book data into the collection
+
+Display the inserted books in the terminal
